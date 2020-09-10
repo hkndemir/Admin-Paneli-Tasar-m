@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aylık Rapor </title>
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    
+
+</head>
+<body>
+
+      <nav class="navbar navbar-expand-lg navbar-light  bg-danger  fixed-top">
+        <a class="navbar-brand text-light" href="#">
+            <img src="bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-top " alt="" loading="lazy">
+            <strong>Bootstrap </strong>
+          </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul type="none" class="navbar-nav m-auto  ">
+                    <li class="nav-item text-light ">
+                        <a href="#" class="nav-link text-light">Ana Sayfa</a>
+                    </li>
+                    <li class="nav-item dropdown pr-3">
+                        
+                        <a href="#" class="nav-link dropdown-toggle text-light" data-toggle="dropdown">Kategoriler</a>
+                       <div class="dropdown-menu">
+                           <a href="#" class="dropdown-item">Kategori Ekle</a>
+                           <div class="dropdown-divider"></div>
+                           <a href="#" class="dropdown-item">Kategori Listele</a>
+                       </div>
+                    </li>
+                    <li class="nav-item dropdown pr-3">
+                        
+                        <a href="#" class="nav-link  dropdown-toggle  text-light" data-toggle="dropdown">Ürünler</a>
+                        <div class="dropdown-menu">
+                            <a href="#" class="dropdown-item">Ürün Ekle</a>
+                            <div class="dropdown-divider"></div>
+                            <a href="#" class="dropdown-item">Ürün Listele</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown pr-3">
+                        
+                        <a href="#" class="nav-link  dropdown-toggle text-light" data-toggle="dropdown">Müşteriler</a>
+                        <div class="dropdown-menu">
+                            <a href="#" class="dropdown-item">Müşteri Ekle</a>
+                            <div class="dropdown-divider"></div>
+                            <a href="#" class="dropdown-item">Müşteri Listele</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown pr-3">
+                        
+                        <a href="#" class="nav-link  dropdown-toggle text-light" data-toggle="dropdown">Satış</a>
+                        <div class="dropdown-menu">
+                            <a href="#" class="dropdown-item">Toplam Satış</a>
+
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown pr-3">
+                        
+                        <a href="#" class="nav-link  dropdown-toggle text-light" data-toggle="dropdown">Raporlar</a>
+                        <div class="dropdown-menu">
+                            <a href="#" class="dropdown-item">Günlük Rapor</a>
+                            <div class="dropdown-divider"></div>
+                            <a href="#" class="dropdown-item">Aylık Rapor</a>
+                            <div class="dropdown-divider"></div>
+                            <a href="#" class="dropdown-item">Yıllık Rapor</a>
+                        </div>
+                    </li>
+                    <li class="nav-item  ">
+                
+                        <a href="#" class=" nav-link    text-light" data-toggle="dropdown">Çıkış</a>
+
+                    </li>
+    
+                </ul>
+    
+              <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Sayfa İçi Arama" aria-label="Search">
+                <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Ara</button>
+              </form>
+            </div>
+        </div>
+      </nav> 
+
+      <div class="container  mt-5 pt-5">
+          <div class="row pb-2">
+            <div class="card" style="width: 600rem;">
+                <div class="card-header ">Ay Aralığı Belirleme </div>
+                <div class="card-body d-flex justify-content-center">
+                    <div class="row align-items-center">
+                        <div class="form-group pr-5">
+                            <label for="Kategori" class="pl-3">Başlanğıç Ayı</label>
+                            <select class="form-control " id="Kategori">
+                                <option value="1">Ocak</option>
+                                <option value="2">Şubat</option>
+                                <option value="3">Mart</option>
+                                <option value="4">Nisan</option>
+                                <option value="5">Mayıs</option>
+                                <option value="6">Haziran</option>
+                                <option value="7">Temmuz</option>
+                                <option value="8">Ağustos</option>
+                                <option value="9">Eylül</option>
+                                <option value="10">Ekim</option>
+                                <option value="11">Kasım</option>
+                                <option value="12">Aralık</option>
+                              </select>
+                        </div>
+                        <div class="form-group pr-5">
+                            <label for="Kategori" class="pl-3">Bitiş Ayı </label>
+                            <select class="form-control " id="Kategori">
+                                <option value="1">Ocak</option>
+                                <option value="2">Şubat</option>
+                                <option value="3">Mart</option>
+                                <option value="4">Nisan</option>
+                                <option value="5">Mayıs</option>
+                                <option value="6">Haziran</option>
+                                <option value="7">Temmuz</option>
+                                <option value="8">Ağustos</option>
+                                <option value="9">Eylül</option>
+                                <option value="10">Ekim</option>
+                                <option value="11">Kasım</option>
+                                <option value="12">Aralık</option>
+                              </select>
+                        </div>
+                            <div class="forgroup d-flex justify-content-end  pt-2">
+                                <button type="submit" class=" d-flex justify-content-end  btn btn-primary mr-3">Listele</button>
+                            </div>
+                            
+                                
+                      </div>
+                </div>
+            </div>
+
+          </div>
+          <div class="container mt-5 ">
+            <div class="row ">
+                <div class="card" style="width: 600rem;">
+                    <div class="card-header">Aylık Rapor</div>
+                    <div class="card-body">
+  
+                      <table class="table">
+                          <thead>
+                            <tr>
+                              <th scope="col">#No</th>
+                              <th scope="col">Liste Adı</th>
+                              <th scope="col">Ürün Adı</th>
+                              <th scope="col">Satış Fiyatı</th>
+                              <th scope="col">Satış Adeti</th>
+                              <th scope="col">Toplam Fiyat</th>
+                              
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <th scope="row">1</th>
+                              <td>test 1</td>
+                              <td >test1</td>
+                              <td>1TL</td>
+                              <td>1</td>
+                              <td>1TL</td>
+                            </tr>
+                            <tr>
+                              <th scope="row">2</th>
+                              <td>test 2</td>
+                              <td>test2</td>
+                              <td>2TL</td>
+                              <td>2</td>
+                              <td>4TL</td>
+
+                            </tr>
+                            <tr>
+                              <th scope="row">3</th>
+                              <td>test 3</td>
+                              <td>test3</td>
+                              <td>3TL</td>
+                              <td>3</td>
+                              <td>9TL</td>
+
+                            </tr>
+                            <tr>
+                              <th scope="row">4</th>
+                              <td>test 4</td>
+                              <td>test4</td>
+                              <td>4TL</td>
+                              <td>4</td>
+                              <td>16TL</td>
+
+                            </tr>
+                            <tr>
+                              <th scope="row">5</th>
+                              <td>test 5</td>
+                              <td>test5</td>
+                              <td>5TL</td>
+                              <td>5</td>
+                              <td>25TL</td>
+                            </tr>
+                            <tr>
+                              <th scope="row"></th>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td> <strong>TOPLAM:55TL</strong></td>
+                            </tr>
+                          </tbody>
+                        </table>
+                    </div>
+                </div>
+  
+  
+  
+            </div>
+         
+        </div> 
+  
+
+
+    
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</body>
+</html>
